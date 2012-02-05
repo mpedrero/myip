@@ -1,0 +1,9 @@
+This tiny script allows obtaining a file with your public IP. 
+My main purpose was put the script in my Dropbox and keep it running 
+in my home server to have a "safe alternative" if my dyndns account failed.
+
+You can adjust the interval between IP updates easily modifying time in:
+time.sleep(3600)
+
+Just put seconds you want.
+setup.py file allows to use py2exe to generate a Windows executable file. 
